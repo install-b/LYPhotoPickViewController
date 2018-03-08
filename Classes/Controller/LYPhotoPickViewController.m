@@ -141,7 +141,8 @@ static NSString *const LYAssetGridViewCellId = @"LYAssetGridViewCellId";
     // 发送完成
     if (assets.count) {
         if ([self.delegate respondsToSelector:@selector(photoPickViewController:didPickImages:)]) {
-            [self.delegate photoPickViewController:self didPickImages:[LYAsset ly_imageArrayFromAssets:assets compressTargetWidth:0]];
+            
+            [self.delegate photoPickViewController:self didPickImages:[LYAsset ly_imageArrayFromAssets:assets compressTargetWidth:self.isOriginSelected ? 0 : 800]];
         }
     }else {
         if ([self.delegate respondsToSelector:@selector(photoPickViewControllerDidCancel:)]) {
