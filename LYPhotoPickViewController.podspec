@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LYPhotoPickViewController"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "an iOS photo pick view controller."
   s.description  = "a simple photo pick view controller for iOS"
 
