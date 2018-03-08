@@ -11,11 +11,16 @@
 @implementation PHAsset (FetchAsset)
 + (PHFetchResult <PHAsset *>*)ly_fetchAllAssets {
     PHFetchOptions *option = [[PHFetchOptions alloc] init];
+#ifdef __IPHONE_9_0
     if (@available(iOS 9.0, *)) {
         option.includeAssetSourceTypes = PHAssetSourceTypeUserLibrary;
     }else {
         option.includeAllBurstAssets = YES;
     }
+#else
+    option.includeAllBurstAssets = YES;
+#endif
+    
     return [self fetchAssetsWithOptions:option];
 }
 @end
