@@ -7,12 +7,14 @@
 //
 
 #import "PHAsset+FetchAsset.h"
+#define SystemVersion [[UIDevice currentDevice] systemVersion].floatValue
+
 
 @implementation PHAsset (FetchAsset)
 + (PHFetchResult <PHAsset *>*)ly_fetchAllAssets {
     PHFetchOptions *option = [[PHFetchOptions alloc] init];
 #ifdef __IPHONE_9_0
-    if (@available(iOS 9.0, *)) {
+    if (SystemVersion >= 9.0f) {
         option.includeAssetSourceTypes = PHAssetSourceTypeUserLibrary;
     }else {
         option.includeAllBurstAssets = YES;

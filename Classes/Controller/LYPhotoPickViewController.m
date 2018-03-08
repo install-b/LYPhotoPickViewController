@@ -261,6 +261,8 @@ static NSString *const LYAssetGridViewCellId = @"LYAssetGridViewCellId";
 #ifdef __IPHONE_11_0
         if (@available(iOS 11.0, *)) {
             collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }else {
+            self.automaticallyAdjustsScrollViewInsets = NO;
         }
 #else
         self.automaticallyAdjustsScrollViewInsets = NO;
