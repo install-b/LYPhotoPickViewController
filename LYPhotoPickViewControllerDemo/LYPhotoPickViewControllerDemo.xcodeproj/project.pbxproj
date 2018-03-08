@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7849A782050EBF3003A3CF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A772050EBF3003A3CF9 /* AppDelegate.m */; };
+		A7849A7B2050EBF3003A3CF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A7A2050EBF3003A3CF9 /* ViewController.m */; };
+		A7849A802050EBF3003A3CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7849A7F2050EBF3003A3CF9 /* Assets.xcassets */; };
+		A7849A832050EBF3003A3CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7849A812050EBF3003A3CF9 /* LaunchScreen.storyboard */; };
+		A7849A862050EBF3003A3CF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A852050EBF3003A3CF9 /* main.m */; };
+		A7849AB42050FC39003A3CF9 /* PHAsset+FetchAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A8F2050FC38003A3CF9 /* PHAsset+FetchAsset.m */; };
+		A7849AB52050FC39003A3CF9 /* UIViewController+VisibleVc.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A902050FC38003A3CF9 /* UIViewController+VisibleVc.m */; };
+		A7849AB62050FC39003A3CF9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A912050FC38003A3CF9 /* UIView+Frame.m */; };
+		A7849AB72050FC39003A3CF9 /* PHPhotoLibrary+Authorization.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A922050FC38003A3CF9 /* PHPhotoLibrary+Authorization.m */; };
+		A7849AB82050FC39003A3CF9 /* UIImageView+AssetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A952050FC38003A3CF9 /* UIImageView+AssetImage.m */; };
+		A7849AB92050FC39003A3CF9 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849A992050FC38003A3CF9 /* UIImage+Common.m */; };
+		A7849ABA2050FC39003A3CF9 /* LYAssetPhoto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7849A9C2050FC38003A3CF9 /* LYAssetPhoto.bundle */; };
+		A7849ABB2050FC39003A3CF9 /* LYPhotoPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AA12050FC38003A3CF9 /* LYPhotoPickViewController.m */; };
+		A7849ABC2050FC39003A3CF9 /* LYAssetPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AA22050FC38003A3CF9 /* LYAssetPreviewController.m */; };
+		A7849ABD2050FC39003A3CF9 /* LYAssetPhotoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AA32050FC38003A3CF9 /* LYAssetPhotoNavigationController.m */; };
+		A7849ABE2050FC39003A3CF9 /* LYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AA62050FC38003A3CF9 /* LYAsset.m */; };
+		A7849ABF2050FC39003A3CF9 /* LYAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AA82050FC38003A3CF9 /* LYAssetCell.m */; };
+		A7849AC02050FC39003A3CF9 /* LYAssetGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AA92050FC38003A3CF9 /* LYAssetGridCell.m */; };
+		A7849AC12050FC39003A3CF9 /* LYAssetGridToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AAA2050FC38003A3CF9 /* LYAssetGridToolBar.m */; };
+		A7849AC22050FC39003A3CF9 /* LYAssetToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AAB2050FC38003A3CF9 /* LYAssetToolBar.m */; };
+		A7849AC32050FC39003A3CF9 /* LYFullItemCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AAC2050FC38003A3CF9 /* LYFullItemCollectionView.m */; };
+		A7849AC42050FC39003A3CF9 /* LYAssetGridCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7849AAD2050FC38003A3CF9 /* LYAssetGridCollectionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7849A732050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPhotoPickViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7849A762050EBF3003A3CF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7849A772050EBF3003A3CF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7849A792050EBF3003A3CF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7849A7A2050EBF3003A3CF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7849A7F2050EBF3003A3CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7849A822050EBF3003A3CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7849A842050EBF3003A3CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7849A852050EBF3003A3CF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7849A8E2050FC38003A3CF9 /* UIImageView+AssetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AssetImage.h"; sourceTree = "<group>"; };
+		A7849A8F2050FC38003A3CF9 /* PHAsset+FetchAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+FetchAsset.m"; sourceTree = "<group>"; };
+		A7849A902050FC38003A3CF9 /* UIViewController+VisibleVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VisibleVc.m"; sourceTree = "<group>"; };
+		A7849A912050FC38003A3CF9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A7849A922050FC38003A3CF9 /* PHPhotoLibrary+Authorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+Authorization.m"; sourceTree = "<group>"; };
+		A7849A932050FC38003A3CF9 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		A7849A942050FC38003A3CF9 /* PHAsset+FetchAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+FetchAsset.h"; sourceTree = "<group>"; };
+		A7849A952050FC38003A3CF9 /* UIImageView+AssetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AssetImage.m"; sourceTree = "<group>"; };
+		A7849A962050FC38003A3CF9 /* UIViewController+VisibleVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VisibleVc.h"; sourceTree = "<group>"; };
+		A7849A972050FC38003A3CF9 /* PHPhotoLibrary+Authorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+Authorization.h"; sourceTree = "<group>"; };
+		A7849A982050FC38003A3CF9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A7849A992050FC38003A3CF9 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		A7849A9A2050FC38003A3CF9 /* LYAssetPhotoConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetPhotoConst.h; sourceTree = "<group>"; };
+		A7849A9C2050FC38003A3CF9 /* LYAssetPhoto.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYAssetPhoto.bundle; sourceTree = "<group>"; };
+		A7849A9E2050FC38003A3CF9 /* LYAssetPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetPreviewController.h; sourceTree = "<group>"; };
+		A7849A9F2050FC38003A3CF9 /* LYPhotoPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotoPickViewController.h; sourceTree = "<group>"; };
+		A7849AA02050FC38003A3CF9 /* LYAssetPhotoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetPhotoNavigationController.h; sourceTree = "<group>"; };
+		A7849AA12050FC38003A3CF9 /* LYPhotoPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotoPickViewController.m; sourceTree = "<group>"; };
+		A7849AA22050FC38003A3CF9 /* LYAssetPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetPreviewController.m; sourceTree = "<group>"; };
+		A7849AA32050FC38003A3CF9 /* LYAssetPhotoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetPhotoNavigationController.m; sourceTree = "<group>"; };
+		A7849AA52050FC38003A3CF9 /* LYAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAsset.h; sourceTree = "<group>"; };
+		A7849AA62050FC38003A3CF9 /* LYAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAsset.m; sourceTree = "<group>"; };
+		A7849AA82050FC38003A3CF9 /* LYAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetCell.m; sourceTree = "<group>"; };
+		A7849AA92050FC38003A3CF9 /* LYAssetGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetGridCell.m; sourceTree = "<group>"; };
+		A7849AAA2050FC38003A3CF9 /* LYAssetGridToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetGridToolBar.m; sourceTree = "<group>"; };
+		A7849AAB2050FC38003A3CF9 /* LYAssetToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetToolBar.m; sourceTree = "<group>"; };
+		A7849AAC2050FC38003A3CF9 /* LYFullItemCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFullItemCollectionView.m; sourceTree = "<group>"; };
+		A7849AAD2050FC38003A3CF9 /* LYAssetGridCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetGridCollectionView.m; sourceTree = "<group>"; };
+		A7849AAE2050FC38003A3CF9 /* LYAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetCell.h; sourceTree = "<group>"; };
+		A7849AAF2050FC38003A3CF9 /* LYAssetGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetGridCell.h; sourceTree = "<group>"; };
+		A7849AB02050FC38003A3CF9 /* LYAssetGridToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetGridToolBar.h; sourceTree = "<group>"; };
+		A7849AB12050FC38003A3CF9 /* LYAssetGridCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetGridCollectionView.h; sourceTree = "<group>"; };
+		A7849AB22050FC38003A3CF9 /* LYFullItemCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFullItemCollectionView.h; sourceTree = "<group>"; };
+		A7849AB32050FC38003A3CF9 /* LYAssetToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetToolBar.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7849A702050EBF3003A3CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7849A6A2050EBF3003A3CF9 = {
+			isa = PBXGroup;
+			children = (
+				A7849A752050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo */,
+				A7849A742050EBF3003A3CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7849A742050EBF3003A3CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7849A732050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7849A752050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A7849A8C2050FC38003A3CF9 /* Classes */,
+				A7849A762050EBF3003A3CF9 /* AppDelegate.h */,
+				A7849A772050EBF3003A3CF9 /* AppDelegate.m */,
+				A7849A792050EBF3003A3CF9 /* ViewController.h */,
+				A7849A7A2050EBF3003A3CF9 /* ViewController.m */,
+				A7849A7F2050EBF3003A3CF9 /* Assets.xcassets */,
+				A7849A812050EBF3003A3CF9 /* LaunchScreen.storyboard */,
+				A7849A842050EBF3003A3CF9 /* Info.plist */,
+				A7849A852050EBF3003A3CF9 /* main.m */,
+			);
+			path = LYPhotoPickViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		A7849A8C2050FC38003A3CF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7849A8D2050FC38003A3CF9 /* Category */,
+				A7849A9A2050FC38003A3CF9 /* LYAssetPhotoConst.h */,
+				A7849A9B2050FC38003A3CF9 /* Resources */,
+				A7849A9D2050FC38003A3CF9 /* Controller */,
+				A7849AA42050FC38003A3CF9 /* Model */,
+				A7849AA72050FC38003A3CF9 /* View */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		A7849A8D2050FC38003A3CF9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A7849A8E2050FC38003A3CF9 /* UIImageView+AssetImage.h */,
+				A7849A8F2050FC38003A3CF9 /* PHAsset+FetchAsset.m */,
+				A7849A902050FC38003A3CF9 /* UIViewController+VisibleVc.m */,
+				A7849A912050FC38003A3CF9 /* UIView+Frame.m */,
+				A7849A922050FC38003A3CF9 /* PHPhotoLibrary+Authorization.m */,
+				A7849A932050FC38003A3CF9 /* UIImage+Common.h */,
+				A7849A942050FC38003A3CF9 /* PHAsset+FetchAsset.h */,
+				A7849A952050FC38003A3CF9 /* UIImageView+AssetImage.m */,
+				A7849A962050FC38003A3CF9 /* UIViewController+VisibleVc.h */,
+				A7849A972050FC38003A3CF9 /* PHPhotoLibrary+Authorization.h */,
+				A7849A982050FC38003A3CF9 /* UIView+Frame.h */,
+				A7849A992050FC38003A3CF9 /* UIImage+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A7849A9B2050FC38003A3CF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7849A9C2050FC38003A3CF9 /* LYAssetPhoto.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7849A9D2050FC38003A3CF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7849A9E2050FC38003A3CF9 /* LYAssetPreviewController.h */,
+				A7849A9F2050FC38003A3CF9 /* LYPhotoPickViewController.h */,
+				A7849AA02050FC38003A3CF9 /* LYAssetPhotoNavigationController.h */,
+				A7849AA12050FC38003A3CF9 /* LYPhotoPickViewController.m */,
+				A7849AA22050FC38003A3CF9 /* LYAssetPreviewController.m */,
+				A7849AA32050FC38003A3CF9 /* LYAssetPhotoNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7849AA42050FC38003A3CF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7849AA52050FC38003A3CF9 /* LYAsset.h */,
+				A7849AA62050FC38003A3CF9 /* LYAsset.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7849AA72050FC38003A3CF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7849AA82050FC38003A3CF9 /* LYAssetCell.m */,
+				A7849AA92050FC38003A3CF9 /* LYAssetGridCell.m */,
+				A7849AAA2050FC38003A3CF9 /* LYAssetGridToolBar.m */,
+				A7849AAB2050FC38003A3CF9 /* LYAssetToolBar.m */,
+				A7849AAC2050FC38003A3CF9 /* LYFullItemCollectionView.m */,
+				A7849AAD2050FC38003A3CF9 /* LYAssetGridCollectionView.m */,
+				A7849AAE2050FC38003A3CF9 /* LYAssetCell.h */,
+				A7849AAF2050FC38003A3CF9 /* LYAssetGridCell.h */,
+				A7849AB02050FC38003A3CF9 /* LYAssetGridToolBar.h */,
+				A7849AB12050FC38003A3CF9 /* LYAssetGridCollectionView.h */,
+				A7849AB22050FC38003A3CF9 /* LYFullItemCollectionView.h */,
+				A7849AB32050FC38003A3CF9 /* LYAssetToolBar.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7849A722050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7849A892050EBF3003A3CF9 /* Build configuration list for PBXNativeTarget "LYPhotoPickViewControllerDemo" */;
+			buildPhases = (
+				A7849A6F2050EBF3003A3CF9 /* Sources */,
+				A7849A702050EBF3003A3CF9 /* Frameworks */,
+				A7849A712050EBF3003A3CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPhotoPickViewControllerDemo;
+			productName = LYPhotoPickViewControllerDemo;
+			productReference = A7849A732050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7849A6B2050EBF3003A3CF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Zhangsg;
+				TargetAttributes = {
+					A7849A722050EBF3003A3CF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7849A6E2050EBF3003A3CF9 /* Build configuration list for PBXProject "LYPhotoPickViewControllerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7849A6A2050EBF3003A3CF9;
+			productRefGroup = A7849A742050EBF3003A3CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7849A722050EBF3003A3CF9 /* LYPhotoPickViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7849A712050EBF3003A3CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7849A832050EBF3003A3CF9 /* LaunchScreen.storyboard in Resources */,
+				A7849ABA2050FC39003A3CF9 /* LYAssetPhoto.bundle in Resources */,
+				A7849A802050EBF3003A3CF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7849A6F2050EBF3003A3CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7849AB62050FC39003A3CF9 /* UIView+Frame.m in Sources */,
+				A7849ABE2050FC39003A3CF9 /* LYAsset.m in Sources */,
+				A7849AB42050FC39003A3CF9 /* PHAsset+FetchAsset.m in Sources */,
+				A7849A7B2050EBF3003A3CF9 /* ViewController.m in Sources */,
+				A7849AB72050FC39003A3CF9 /* PHPhotoLibrary+Authorization.m in Sources */,
+				A7849ABF2050FC39003A3CF9 /* LYAssetCell.m in Sources */,
+				A7849A862050EBF3003A3CF9 /* main.m in Sources */,
+				A7849AB82050FC39003A3CF9 /* UIImageView+AssetImage.m in Sources */,
+				A7849A782050EBF3003A3CF9 /* AppDelegate.m in Sources */,
+				A7849AC22050FC39003A3CF9 /* LYAssetToolBar.m in Sources */,
+				A7849ABB2050FC39003A3CF9 /* LYPhotoPickViewController.m in Sources */,
+				A7849ABD2050FC39003A3CF9 /* LYAssetPhotoNavigationController.m in Sources */,
+				A7849ABC2050FC39003A3CF9 /* LYAssetPreviewController.m in Sources */,
+				A7849AC32050FC39003A3CF9 /* LYFullItemCollectionView.m in Sources */,
+				A7849AC42050FC39003A3CF9 /* LYAssetGridCollectionView.m in Sources */,
+				A7849AC02050FC39003A3CF9 /* LYAssetGridCell.m in Sources */,
+				A7849AC12050FC39003A3CF9 /* LYAssetGridToolBar.m in Sources */,
+				A7849AB92050FC39003A3CF9 /* UIImage+Common.m in Sources */,
+				A7849AB52050FC39003A3CF9 /* UIViewController+VisibleVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7849A812050EBF3003A3CF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7849A822050EBF3003A3CF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7849A872050EBF3003A3CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7849A882050EBF3003A3CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7849A8A2050EBF3003A3CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDH66RGJXX;
+				INFOPLIST_FILE = LYPhotoPickViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heilpay.LYPhotoPickViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7849A8B2050EBF3003A3CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QDH66RGJXX;
+				INFOPLIST_FILE = LYPhotoPickViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heilpay.LYPhotoPickViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7849A6E2050EBF3003A3CF9 /* Build configuration list for PBXProject "LYPhotoPickViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7849A872050EBF3003A3CF9 /* Debug */,
+				A7849A882050EBF3003A3CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7849A892050EBF3003A3CF9 /* Build configuration list for PBXNativeTarget "LYPhotoPickViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7849A8A2050EBF3003A3CF9 /* Debug */,
+				A7849A8B2050EBF3003A3CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7849A6B2050EBF3003A3CF9 /* Project object */;
+}
