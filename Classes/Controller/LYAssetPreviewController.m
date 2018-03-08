@@ -126,11 +126,13 @@ static NSString * const LYAssetViewCellId = @"LYAssetViewCellId";
         LYFullItemCollectionView *collectionView = [[LYFullItemCollectionView alloc] initWithFrame:CGRectMake(0, 0, self.view.width, collectionHeight)];
         collectionView.delegate = self;
         collectionView.dataSource = self;
+#ifdef __IPHONE_11_0
         if (@available(iOS 11.0, *)) {
             collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
-        } else {
-            self.automaticallyAdjustsScrollViewInsets = NO;
         }
+#else
+        self.automaticallyAdjustsScrollViewInsets = NO;
+#endif
         [collectionView registerClass:[LYAssetCell class] forCellWithReuseIdentifier:LYAssetViewCellId];
         [self.view addSubview:collectionView];
         _collectionView = collectionView;

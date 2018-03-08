@@ -258,12 +258,13 @@ static NSString *const LYAssetGridViewCellId = @"LYAssetGridViewCellId";
         collectionView.dataSource = self;
         
         [collectionView registerClass:[LYAssetGridCell class] forCellWithReuseIdentifier:LYAssetGridViewCellId];
-        
+#ifdef __IPHONE_11_0
         if (@available(iOS 11.0, *)) {
             collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
-        } else {
-            self.automaticallyAdjustsScrollViewInsets = NO;
         }
+#else
+        self.automaticallyAdjustsScrollViewInsets = NO;
+#endif
         
         collectionView.contentInset = UIEdgeInsetsMake(0, 0, navBarHeight, 0);
         _collectionView = collectionView;
