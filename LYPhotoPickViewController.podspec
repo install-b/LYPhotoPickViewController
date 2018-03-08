@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = "Classes/Controller/LYPhotoPickViewController.h"
 
-  s.resource  = "Resources/*.bundle"
+  s.resource  = "Classes/Resources/*.bundle"
  
   s.framework  = "UIKit"
   
